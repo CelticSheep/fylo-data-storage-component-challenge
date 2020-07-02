@@ -1,0 +1,220 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
+.mainbackground{
+  position: relative;
+  width: 1440px;
+  height: 770px;
+  background-color: #07031a;
+}
+
+.bottomimg{
+  position: absolute;
+  bottom: 0;
+}
+
+.boxleft{
+  position: absolute;
+  width: 350px;
+  height: 230px;
+  left: 270px;
+  top: 250px;
+  background-color: #111d5e;
+  border-radius: 5%;
+  border-top-right-radius: 35%;
+}
+
+.box1{
+  position: absolute;
+  width: 50px;
+  height: 55px;
+  background-color: #07031a;
+  border-radius: 15%;
+  left: 40px;
+  top:130px;
+}
+
+.icon1{
+  position: absolute;
+  left: 15px;
+  top: 15px;
+}
+
+.box2{
+  position: absolute;
+  width: 50px;
+  height: 55px;
+  background-color: #07031a;
+  border-radius: 15%;
+  left: 105px;
+  top: 130px;
+}
+
+.icon2{
+  position: absolute;
+  left: 13px;
+  top: 18px;
+}
+
+.box3{
+  position: absolute;
+  width: 50px;
+  height: 55px;
+  background-color: #07031a;
+  border-radius: 15%;
+  left: 170px;
+  top: 130px;
+}
+
+.icon3{
+  position: absolute;
+  left: 13px;
+  top: 20px;
+}
+
+.logo{
+  position: absolute;
+  left: 40px;
+  top: 50px;
+}
+
+.boxright{
+  position: absolute;
+  top: 310px;
+  left:660px;
+  width: 560px;
+  height: 170px;
+  background-color: #111d5e;
+  border-radius: 5%;
+  color: #dddddd;
+  font-size: 14px;
+}
+
+.boxright span{
+  font-size: 16px;
+  color: #fff
+}
+
+.usdgb{
+  position: absolute;
+  top: 45px;
+  left:35px;
+}
+
+.gb0{
+  position: absolute;
+  top: 110px;
+  left:35px;
+}
+
+.gb1000{
+  position: absolute;
+  top: 110px;
+  left:460px;
+}
+
+.speech {
+  position: absolute;
+  background-color: #f4f4f4;
+  width: 200px;
+  height: 80px;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 10px;
+  top: 260px;
+  left: 970px;
+  color: #888888
+}
+
+.speech p{
+  padding-top: 15px;
+  font-weight: bold;
+}
+
+.speech span{
+  font-size: 35px;
+  font-weight: 900;
+  padding-right: 10px;
+  color: #000;
+}
+
+.triangle {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-right:40px solid #f4f4f4;
+  top: 270px;
+  left: 1080px;
+}
+
+.attribution{
+  width: 1440px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.attribution {
+  margin-top: 15px;
+  width: 1440px;
+  color: #024249;
+  font-size: 13px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #ff4301;
+  text-decoration: none;
+}
+
+/*-----------------------Created by Basak ulcay, Thanks to her!!😁------------------------------------*/
+.progress-bar {
+  position: absolute;
+  top: 80px;
+  left: 35px;
+  width: 480px;
+  height: 1.5em;
+  background-color: rgb(15, 27, 61);
+  border-radius: 1.5rem;
+}
+
+.progress-bar::before {
+  content: attr(data-label);
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 0.25em;
+  top: 0.25em;
+  bottom: 0.25em;
+  width: calc(var(--width, 0) * 1%);
+  min-width: 2rem;
+  max-width: calc(100% - 0.5em);
+  background-image: linear-gradient(
+    to right,
+    hsl(6, 100%, 80%),
+    hsl(335, 100%, 65%)
+  );
+  border-radius: 0.5em;
+  padding: 0.5em;
+}
+
+.progress-bar::after {
+  content: attr(data-label);
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: calc(var(--width, 0) * 1%);
+  top: 0.25em;
+  bottom: 0.25em;
+  min-width: 0.05rem;
+  max-width: 0.05rem;
+  background-color: white;
+  border-radius: 1.5em;
+  padding: 0.5em;
+}
